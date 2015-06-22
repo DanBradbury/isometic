@@ -15,10 +15,22 @@
     <sprite>sprites\s_landscape6</sprite>
     <sprite>sprites\s_landscape7</sprite>
     <sprite>sprites\s_landscape8</sprite>
+    <sprite>sprites\s_landscape9</sprite>
+    <sprite>sprites\s_landscape10</sprite>
     <sprite>sprites\s_tower1</sprite>
+    <sprite>sprites\s_tree0</sprite>
+    <sprite>sprites\s_tower2</sprite>
+    <sprite>sprites\s_tower3</sprite>
+    <sprite>sprites\s_water0</sprite>
+    <sprite>sprites\s_water1</sprite>
+    <sprite>sprites\s_water2</sprite>
+    <sprite>sprites\s_car</sprite>
+    <sprite>sprites\sprite19</sprite>
   </sprites>
   <backgrounds name="background"/>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\car_path</path>
+  </paths>
   <objects name="objects">
     <object>objects\object0</object>
     <object>objects\object1</object>
@@ -30,9 +42,23 @@
     <object>objects\object7</object>
     <object>objects\object8</object>
     <object>objects\object9</object>
+    <object>objects\object10</object>
+    <object>objects\object11</object>
+    <object>objects\object12</object>
+    <object>objects\object13</object>
+    <object>objects\object14</object>
+    <object>objects\object15</object>
+    <object>objects\object16</object>
+    <object>objects\object17</object>
+    <object>objects\controller</object>
+    <object>objects\o_coche</object>
+    <object>objects\o_arrow</object>
+    <object>objects\o_wave_announcement</object>
+    <object>objects\o_WAVE1</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
+    <room>rooms\room2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
